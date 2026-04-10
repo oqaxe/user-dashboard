@@ -1,0 +1,27 @@
+{
+  "serviceName": "user-dashboard",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "status": "healthy",
+  "version": "1.2.3",
+  "environment": "production",
+  "metrics": {
+    "cpuUsage": 0.15,
+    "memoryUsage": 0.6,
+    "responseTime": 0.02,
+    "activeUsers": 1250
+  },
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "responseTime": 0.01
+    },
+    "authenticationService": {
+      "status": "healthy",
+      "responseTime": 0.03
+    },
+    "cache": {
+      "status": "healthy"
+    }
+  },
+  "alerts": []
+}
